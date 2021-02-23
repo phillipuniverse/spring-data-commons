@@ -207,7 +207,7 @@ public abstract class SortHandlerMethodArgumentResolverSupport {
 	 * @param delimiter the delimiter to be used to split up the source elements, will never be {@literal null}.
 	 * @return
 	 */
-	Sort parseParameterIntoSort(List<String> source, String delimiter) {
+	protected Sort parseParameterIntoSort(List<String> source, String delimiter) {
 
 		List<Order> allOrders = new ArrayList<>();
 
